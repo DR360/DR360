@@ -323,7 +323,7 @@ span {
 }
 
 .contact form {
-    max-width: 70rem;
+    max-width: 150rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
@@ -347,7 +347,7 @@ span {
 }
 
 .contact form .input-box input {
-    width: 200%;
+    width: 49%;
 }
 
 .contact form textarea {
