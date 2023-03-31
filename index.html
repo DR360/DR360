@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Digital Redactor 360</a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">A propos</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, c'est moi</h3>
+            <h1>Ugo Jacob</h1>
+            <h3>Je suis <span class="multiple-text"></span></h3>
+            <p>Le partenaire idéal pour votre rédaction de contenu en ligne, je suis spécialisé dans la création d'articles sur mesure et de haute qualité !</p>
+            <div class="social-media">
+                <a href="https://fr-fr.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://fr.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#contact" class="btn">Me contacter</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">A propos de <span>Moi</span></h2>
+            <h3>Rédacteur Web!</h3>
+            <p>Je suis un rédacteur de contenu expérimenté, passionné par la création de textes captivants et informatifs pour répondre aux besoins de mes clients. <br>
+<br>
+Grâce à mon expertise en SEO et à ma plume polyvalente, je m'adapte à différents secteurs et styles rédactionnels. <br>
+<br>
+Mon objectif principal est de fournir un contenu de qualité, qui informe, divertit et inspire les lecteurs, tout en contribuant à la réussite des projets en ligne de mes partenaires.</p>
+            
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Mes <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-file'></i>
+                <h3>Rédaction d'articles</h3>
+                <p>Attirez et fidélisez votre audience grâce à des articles de blog originaux, informatifs et engageants, rédigés selon vos critères.</p>
+                <a href="#popup" class="btn open-popup" data-popup-id="popup1">Tarifs</a>
+
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Newsletters</h3>
+                <p>Gardez vos clients informés grâce à des newsletters personnalisées, conçues pour mettre en valeur les dernières actualités de votre entreprise.</p>
+                <a href="#popup" class="btn open-popup" data-popup-id="popup2">Tarifs</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-book-content'></i>
+                <h3>Présentation</h3>
+                <p>Améliorez votre visibilité et votre classement sur les moteurs de recherche avec une présentation web soigneusement optimisé pour le SEO.</p>
+                <a href="#popup" class="btn open-popup" data-popup-id="popup3">Tarifs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Mes <span>Projets</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <a href="#popup" class="btn open-popup" data-popup-id="popup4">Voir</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                     <a href="#popup" class="btn open-popup" data-popup-id="popup5">Voir</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                     <a href="#popup" class="btn open-popup" data-popup-id="popup6">Voir</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                	<div class="portfolio-layer">
+                    	<a href="#popup" class="btn open-popup" data-popup-id="popup7">Voir</a>
+               	</div>
+            	</div>  
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <a href="#popup" class="btn open-popup" data-popup-id="popup8">Voir</a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <a href="#popup" class="btn open-popup" data-popup-id="popup9">Voir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contactez <span>Moi!</span></h2>
+
+        <form action="https://formspree.io/f/moqzkeyv" method="POST">
+            <div class="input-box">
+		<label>
+                <input type="name" name="Nom" placeholder="Nom" required>
+		</label>
+		<label>
+                <input type="email" name="Email" placeholder="Email" oninvalid="this.setCustomValidity('Veuillez entrer une adresse mail valide');" oninput="this.setCustomValidity('');" required>
+		</label>
+            </div>
+            <div class="input-box">
+		<label>
+   		<input type="text" name="Numéro" placeholder="Téléphone" pattern="\d{10}" maxlength="10" oninvalid="this.setCustomValidity('Veuillez entrer un numéro de téléphone à 10 chiffres');" oninput="this.setCustomValidity('');" required>
+		</label>
+
+
+		<label>
+                <input type="text" name="Objet" placeholder="Objet" required>
+		</label>
+            </div>
+		<label>
+            	<textarea name="Message" id="" cols="30" rows="10" placeholder="Votre message" required></textarea>
+		</label>
+           	<input type="submit" value="Envoyer" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Ugo Jacob | Tous droits réservés.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- pop up design -->
+
+	<div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Tarifs des articles</h2>
+            <table>
+		 <thead>
+            <tr>
+                <th>Nombre de mots</th>
+                <th>Tarifs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1 000 mots</td>
+                <td>100€</td>
+            </tr>
+            <tr>
+                <td>2 000 mots</td>
+                <td>190€</td>
+            </tr>
+            <tr>
+                <td>3 000 mots</td>
+                <td>280€</td>
+            </tr>
+            <tr>
+                <td>4 000 mots</td>
+                <td>370€</td>
+            </tr>
+            <tr>
+                <td>5 000 mots</td>
+                <td>450€</td>
+            </tr>
+	    <tr>
+                <td>Plus de 5000 mots</td>
+                <td>Sur devis</td>
+            </tr>
+        </tbody>
+    </table>
+	</div>
+        </div>
+
+
+	<div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Tarifs des newsletters</h2>
+            <table>
+        <thead>
+            <tr>
+                <th>Nombre de mots</th>
+                <th>Tarifs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>300 mots</td>
+                <td>30€</td>
+            </tr>
+            <tr>
+                <td>500 mots</td>
+                <td>45€</td>
+            </tr>
+            <tr>
+                <td>750 mots</td>
+                <td>65€</td>
+            </tr>
+	    <tr>
+                <td>1 000 mots</td>
+                <td>80€</td>
+            </tr>
+	    <tr>
+                <td>Plus de 1 000 mots</td>
+                <td>Sur devis</td>
+            </tr>
+        </tbody>
+    </table>
+	</div>
+        </div>
+
+	<div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h3>Tarifs des présentations</h3>
+            <table>
+        <thead>
+            <tr>
+                <th>Nombre de mots</th>
+                <th>Tarifs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>500 mots</td>
+                <td>50€</td>
+            </tr>
+            <tr>
+                <td>1 000 mots</td>
+                <td>95€</td>
+            </tr>
+            <tr>
+                <td>1 500 mots</td>
+                <td>140€</td>
+            </tr>
+            <tr>
+                <td>2 000 mots</td>
+                <td>180€</td>
+            </tr>
+            <tr>
+                <td>Plus de 2 000 mots</td>
+                <td>Sur devis</td>
+            </tr>
+        </tbody>
+    </table>
+	</div>
+        </div>
+
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Les bienfaits de l'exercice physique sur la santé mentale</h2>
+	    <p class="alinea">Vous êtes-vous déjà demandé pourquoi vous vous sentez si bien après une bonne séance d'entraînement ? Ce n'est pas seulement parce que vous avez brûlé des calories ou que vous vous êtes musclé. L'exercice physique a également de nombreux bienfaits pour votre santé mentale !</p>
+
+            <p class="alinea">Tout d'abord, l'exercice physique libère des endorphines, ces hormones du bonheur qui vous font sentir bien et améliorent votre humeur. Il n'y a rien de mieux qu'un petit coup de pouce de la nature pour vous faire sentir mieux !</p>
+
+	    <p class="alinea">Mais les endorphines ne sont que la partie visible de l'iceberg. L'exercice physique a également des effets positifs sur la dépression et l'anxiété. Des études ont montré que l'exercice régulier peut réduire les symptômes de la dépression et de l'anxiété, et peut même être aussi efficace que les médicaments pour traiter ces troubles. L'exercice physique peut aider à réguler les niveaux de sérotonine et de noradrénaline, deux neurotransmetteurs impliqués dans la régulation de l’humeur.</p>
+
+	    <p class="alinea">Mais ce n'est pas tout ! L'exercice physique peut également améliorer la qualité du sommeil. Une bonne nuit de sommeil est essentielle pour une bonne santé mentale, et l'exercice physique peut vous aider à mieux dormir. Il peut aider à réduire les niveaux de stress et à calmer votre esprit avant le coucher.</p>
+
+	    <p class="alinea">De plus, l'exercice physique peut aider à améliorer l'estime de soi et la confiance en soi. Le fait de se fixer des objectifs et de les atteindre peut aider à renforcer la confiance en soi et à améliorer l'estime de soi. De plus, l'exercice physique peut aider à améliorer la perception de soi et à réduire les sentiments de honte ou de culpabilité.</p>
+
+	    <p class="alinea"> Enfin, l'exercice physique peut être un excellent moyen de socialiser et de se connecter avec les autres. Les activités physiques en groupe, comme les cours de fitness ou les sports d'équipe, peuvent aider à renforcer les relations sociales et à réduire les sentiments de solitude.</p>
+
+	    <p class="alinea">Alors, maintenant que vous connaissez les bienfaits de l'exercice physique sur la santé mentale, il est temps de vous mettre en action ! Et si vous n'êtes pas un grand fan de l'exercice, ne vous inquiétez pas. Il n'est pas nécessaire de devenir un athlète professionnel pour bénéficier des avantages de l'exercice physique. Une simple promenade, une séance de yoga ou de pilates peut suffire pour commencer.</p>
+
+	    <p class="alinea">Enfin, n'oubliez pas de vous amuser ! L'exercice physique ne doit pas être une corvée. Trouvez une activité qui vous plaît et qui vous donne envie de vous entraîner. Et pourquoi ne pas inviter des amis à vous joindre à vous pour encore plus de plaisir et de bonne humeur ?</p>
+
+	    <p class="alinea">En somme, l'exercice physique peut apporter de nombreux bienfaits à votre santé mentale. Alors, pourquoi ne pas faire de l'exercice physique une habitude régulière dans votre vie ? Votre corps et votre esprit vous remercieront !</p>
+
+	    <p class="alinea">Nous espérons que cet article vous a donné envie de vous mettre en action et de profiter des bienfaits de l'exercice physique sur votre santé mentale. N'oubliez pas que l'exercice physique peut être amusant et bénéfique pour votre corps et votre esprit. Alors, enfilez vos chaussures de sport, trouvez une activité que vous aimez et profitez-en !</p>
+        </div>
+    </div>
+
+    <div id="popup5" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+		<h2>Productivité : comment gérer votre temps comme un pro</h2>
+		<p class="alinea">Gérer son temps et s'organiser est une compétence essentielle pour atteindre ses objectifs. Que vous soyez étudiant, professionnel ou parent, vous avez besoin de savoir comment organiser votre temps pour accomplir vos tâches. Voici quelques astuces courantes pour mieux gérer votre temps :
+	<ul>
+    	<li>Établissez vos priorités et classez-les par ordre d'importance.</li>
+    	<li>Établissez un calendrier ou un agenda pour planifier votre semaine à l'avance.</li>
+    	<li>Divisez les tâches en petites étapes pour éviter de vous sentir submergé.</li>
+	<li>Apprenez à dire non si vous avez déjà une charge de travail importante.</li>
+	<li>Déléguez certaines tâches à vos collègues ou amis pour mieux gérer votre temps.</li>
+</ul>
+<p/>
+
+	<p class="alinea">Ces astuces courantes peuvent vous aider à gérer votre temps, mais il existe également des astuces moins courantes que vous pouvez utiliser pour améliorer votre productivité. Voici quelques astuces moins courantes :
+	<ul>
+    	<li>Utilisez la technique Pomodoro : travaillez pendant 25 minutes, puis faites une pause de 5 minutes. Répétez ce processus quatre fois, puis prenez une pause plus longue de 15 à 20 minutes.</li>
+    	<li>Mettez en place des routines quotidiennes : établissez des habitudes et des rituels qui vous aident à rester organisé et productif.</li>
+    	<li>Évitez les distractions : mettez votre téléphone en mode silencieux, désactivez les notifications et évitez les réseaux sociaux pendant que vous travaillez.</li>
+	</ul>
+ <p/>
+
+<p class="alinea">Enfin, n'oubliez pas de prendre des pauses régulières pour recharger votre énergie et votre créativité. Vous pouvez utiliser vos pauses pour faire de l'exercice, pour lire un livre ou simplement pour vous détendre.<p/>
+
+<p class="alinea">En suivant ces astuces, vous pouvez mieux gérer votre temps et atteindre vos objectifs plus efficacement. Alors, pourquoi ne pas les essayer dès aujourd'hui ?<p/>
+
+        </div>
+    </div>
+
+    <div id="popup6" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+     	<h2>La cryothérapie : une technique de traitement aux nombreux bienfaits pour la santé et le bien-être</h2>
+	    <p class="alinea">La cryothérapie est une méthode de traitement qui consiste à exposer le corps à des températures très basses, généralement inférieures à -100°C, pendant une courte période. Cette technique est utilisée depuis des années dans le domaine médical pour traiter diverses affections, mais elle est de plus en plus populaire dans le domaine du bien-être et de la performance sportive. Dans cet article, nous allons explorer les bienfaits de la cryothérapie sur la santé et le bien-être.
+</p>
+	    <h3>Qu'est-ce que la cryothérapie ?</h3>
+
+            <p class="alinea">La cryothérapie est une méthode de traitement qui utilise des températures extrêmement basses pour stimuler le corps à guérir et à se régénérer. </p>
+	    <p class="alinea">Il existe plusieurs types de cryothérapie, mais la forme la plus courante consiste à exposer le corps à de l'azote liquide pendant une période de deux à trois minutes. Les températures extrêmes auxquelles est exposé le corps pendant cette période ont un effet sur les récepteurs de la peau, ce qui déclenche une réaction de lutte ou de fuite dans le corps.
+Cette réaction entraîne la libération d'hormones et de neurotransmetteurs qui ont des effets bénéfiques sur la santé et le bien-être.</p>
+
+	    <h3>Quels sont les bienfaits de la cryothérapie sur la récupération musculaire ?</h3>
+
+	    <p class="alinea">La cryothérapie est souvent utilisée dans le domaine sportif pour accélérer la récupération musculaire. Des études ont montré que la cryothérapie pouvait réduire l'inflammation, la douleur et les dommages musculaires causés par l'exercice intense. </p>
+	    <p class="alinea">Dans une étude publiée dans le Journal of Athletic Training, des chercheurs ont examiné les effets de la cryothérapie sur la récupération musculaire après une séance d'entraînement en force. Les participants ont été divisés en deux groupes, un groupe qui a reçu une exposition à la cryothérapie après l'entraînement et un groupe témoin qui n'a pas reçu de traitement. Les résultats ont montré que le groupe de la cryothérapie avait une réduction significative de la douleur musculaire et de la fatigue par rapport au groupe témoin.
+</p>
+
+	    <h3>La cryothérapie peut-elle aider à soulager la douleur ?</h3>
+
+	    <p class="alinea">La cryothérapie peut être efficace pour soulager la douleur. 
+Elle peut réduire l'inflammation et le gonflement des tissus, ce qui peut réduire la douleur et peut également stimuler la production de substances chimiques naturelles dans le corps qui réduisent la douleur, comme les endorphines. </p>
+	    <p class="alinea">Selon une étude parue dans le Journal of Pain Research, des participants atteints de fibromyalgie ont reçu des séances de cryothérapie trois fois par semaine pendant quatre semaines. Les résultats ont montré une réduction significative de la douleur et de la fatigue chez les patients traités par cryothérapie.
+</p>
+
+	    <h3>Comment la cryothérapie peut-elle améliorer la qualité du sommeil ?</h3>
+
+	    <p class="alinea"> La cryothérapie peut également améliorer la qualité du sommeil, réduire l'anxiété et la dépression, qui sont souvent associées à des troubles du sommeil. </p>
+	    <p class="alinea">Elle peut également stimuler la production de mélatonine, une hormone qui régule le sommeil. Dans une étude publiée dans le Journal of Sleep Research, des participants atteints d'insomnie ont reçu des séances de cryothérapie trois fois par semaine pendant quatre semaines. Les résultats ont montré une amélioration significative de la qualité du sommeil et une réduction de l'anxiété et de la dépression chez les patients traités par cryothérapie. </p>
+
+	    <h3>La cryothérapie peut-elle aider à perdre du poids ?</h3>
+
+	    <p class="alinea">Bien que la cryothérapie ne soit pas une méthode de perte de poids en soi, elle peut être utile dans le cadre d'un programme de perte de poids. La cryothérapie peut stimuler le métabolisme en augmentant la production de noradrénaline, une hormone qui aide à brûler les graisses. Elle peut également réduire les douleurs musculaires après l'exercice, ce qui peut encourager les gens à s'entraîner plus régulièrement. </p>
+	    <p class="alinea">Dans une étude publiée dans le Journal of Clinical Investigation, les sujets obèses ont été exposés à des températures froides pendant deux heures par jour pendant six semaines. Les résultats ont montré une augmentation significative de la dépense énergétique et une réduction de la graisse corporelle chez les sujets traités par cryothérapie.
+</p>
+
+	    <h3>Quels sont les effets secondaires de la cryothérapie ?</h3>
+	
+	    <p class="alinea">Bien que la cryothérapie soit considérée comme sûre, elle peut entraîner certains effets secondaires. Les effets secondaires courants incluent des engourdissements, des picotements, des rougeurs et des démangeaisons de la peau. </p>
+	    <p class="alinea">Dans de rares cas, la cryothérapie peut entraîner des brûlures de la peau. Il est important de consulter un professionnel de la santé avant de commencer un traitement de cryothérapie, car il peut y avoir des risques et des effets secondaires associés.
+</p>
+
+	    <h3>Pour conclure</h3>
+	
+	    <p class="alinea">La cryothérapie peut offrir de nombreux avantages pour la santé et le bien-être. Elle peut être particulièrement utile pour la récupération musculaire, la gestion de la douleur, l'amélioration du sommeil et la perte de poids. </p>
+	    <p class="alinea">Cependant, il est important de consulter un professionnel de la santé avant de commencer un traitement de cryothérapie, car il peut y avoir des risques et des effets secondaires associés. Les résultats des études sur la cryothérapie sont prometteurs, mais il est important de poursuivre la recherche pour mieux comprendre les effets de cette technique sur la santé et le bien-être. </p>
+	    <p class="alinea">En fin de compte, il est important de trouver une approche équilibrée pour la gestion de la santé et de choisir les méthodes de traitement qui conviennent le mieux à chaque individu.
+</p>
+
+        </div>
+    	</div>
+
+	<div id="popup7" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+		<h4>Bonjour chers abonnés,</h4>
+            	<p class="alinea">Préparez-vous à briller de mille feux sous le soleil printanier avec notre nouvelle collection de costumes pour la saison printemps-été 2023 ! Nous avons travaillé dur pour concevoir des tenues élégantes, confortables et pratiques pour répondre à vos besoins professionnels et personnels. Et pour compléter votre tenue, nous avons également lancé une nouvelle paire de chaussures élégantes !</p>
+	   	<p class="alinea">Il est temps de dire adieu aux manteaux épais et aux pantalons lourds pour laisser place à des vêtements légers et confortables. Notre ensemble printemps-été est parfait pour les journées chaudes et ensoleillées. Il est conçu avec des matériaux respirants pour vous garder au frais et à l'aise toute la journée. Et pour ceux qui ont besoin d'une pointe d'humour dans leur tenue, nous avons également ajouté une cravate à motifs flamants roses !</p>
+	    	<p class="alinea">Nous sommes fiers de vous présenter notre nouvelle paire de chaussures, la "Derby Wingtip". Ces chaussures sont parfaites pour les occasions formelles et informelles. Elles sont fabriquées à partir de cuir de haute qualité et sont conçues pour durer. Et si vous êtes fatigué de porter les mêmes chaussures ennuyeuses, optez pour notre Derby Wingtip pour faire tourner les têtes !</p>
+	    	<p class="alinea">Et pour les amateurs de blagues, avez-vous entendu parler du costume qui a pris froid ? Il a dû être recouvert d'un mouchoir de poche ! Blague à part, notre collection de costumes printemps-été a été élargie avec de nouvelles couleurs, de nouveaux motifs et de nouveaux tissus pour répondre à tous les goûts.</p>
+	    	<p class="alinea">Nous sommes fiers d'offrir des produits de qualité à des prix abordables. Et pour vous, cher abonné, nous avons une offre spéciale : une réduction de 10% sur votre prochain achat en utilisant le code promo "SUNNY10" !</p>
+	    	<p class="alinea">Nous espérons que vous êtes aussi excités que nous de découvrir notre nouvelle collection printemps-été 2023 ! N'hésitez pas à nous suivre sur les réseaux sociaux pour rester à jour sur nos dernières nouveautés et offres exclusives.</p>
+	    	<p class="alinea">Cordialement,</p>
+        </div>
+    	</div>
+
+	<div id="popup8" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+		<h2>Objet : Les dernières nouvelles de l’entreprise</h2>
+		<h4>Chers collègues,</h4>
+		<p class="alinea">L'année 2023 a bien commencé pour notre entreprise ! Nous avons de nombreuses nouveautés à vous présenter, dont certaines pourraient bien changer la vie de nos clients (et la nôtre aussi !).</p>
+		<h4>1. De nouvelles technologies pour nous faciliter la vie</h4>
+		<p class="alinea">Nous avons fait le grand saut et avons investi dans des technologies de pointe pour améliorer notre productivité et notre efficacité. Vous êtes prêts ? Voici les dernières additions à notre arsenal :
+		<ul>
+    		<li>Un système de gestion de projets en ligne pour faciliter la collaboration entre les équipes et, soyons honnêtes, pour nous aider à ne pas perdre la tête</li>
+    		<li>Des outils d'analyse de données pour mieux comprendre les besoins de nos clients et offrir des solutions plus personnalisées, ce qui signifie que nous pouvons enfin dire au revoir aux décisions prises à l'aveuglette</li>
+    		<li>Des logiciels de traitement de données pour améliorer l'efficacité de nos processus et réduire les coûts, ce qui signifie que nous pouvons dépenser tout cet argent que nous avons économisé pour acheter plus de café !</li>
+		</ul>
+		</p>
+
+		<h4>2. Deux nouveaux collègues viennent nous rejoindre</h4>
+		<p class="alinea">Nous sommes ravis d'accueillir deux nouveaux membres dans notre grande famille :
+		<ul>
+    		<li>Sarah, qui rejoint l'équipe marketing en tant que responsable des réseaux sociaux. Avec 5 années d'expérience dans le domaine, Sarah apportera une expertise précieuse pour développer notre présence sur les réseaux sociaux et améliorer notre stratégie de marketing digital. Et, soyons honnêtes, pour nous apprendre comment utiliser TikTok !</li>
+    		<li>Jérémy, qui rejoint l'équipe de développement en tant que développeur web. Avec 8 années d'expérience dans le développement web, Jérémy apportera une expertise technique et une passion pour les nouvelles technologies pour améliorer nos produits et services. Et peut-être même pour nous apprendre comment utiliser notre propre système de gestion de projets en ligne !</li>
+		</ul>
+		</p>
+
+		<h4>3. Un nouveau programme de formation pour tous les employés</h4>
+		<p class="alinea">Nous avons tous besoin d'un petit coup de pouce pour nous aider à atteindre nos objectifs, c'est pourquoi nous avons lancé un nouveau programme de formation pour tous les employés. Il comprend des formations en ligne, des sessions de formation en présentiel et des programmes de mentorat. Et qui sait, peut-être qu'après avoir suivi une formation, nous pourrons tous enfin comprendre les instructions sur le micro-ondes de la cantine !</p>
+		<h4>Le clap de fin, ou presque !</h4>
+		<p class="alinea">Nous espérons que ces nouvelles vous enthousiasmeront autant que nous et que vous continuerez à travailler dur pour faire de notre entreprise un succès. N'hésitez pas à nous faire part de vos commentaires et de vos idées pour améliorer notre entreprise.</p>
+		<p class="alinea">Cordialement,</p>
+
+        </div>
+    	</div>
+
+	<div id="popup9" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Découvrez Cyclobikes, le spécialiste du cycle depuis les années 1980</h2>
+            <p class="alinea">Chez Cyclobikes, nous sommes passionnés par le monde du cycle depuis les années 1980. Depuis nos débuts, notre mission est de proposer une large gamme de vélos de qualité pour répondre aux besoins de tous les cyclistes, quelle que soit leur expérience ou leur âge. Grâce à notre expertise et à notre capacité à innover, nous sommes devenus une référence dans le domaine du cycle.</p>
+	    <p class="alinea">Notre gamme de produits inclut des vélos de ville, des VTT, des vélos électriques, des vélos de route et des vélos pour enfants. Nous offrons également un large choix d'accessoires et de pièces détachées pour personnaliser et entretenir votre vélo.</p>
+	    <p class="alinea">Nos vélos sont conçus et fabriqués avec soin pour garantir une expérience de cyclisme optimale. Nous nous appuyons sur les dernières innovations technologiques et les meilleures pratiques en matière de développement durable pour proposer des produits performants, confortables et respectueux de l’environnement.</p>
+	    <p class="alinea">Notre équipe d'experts, passionnée de cyclisme, est à votre disposition pour vous conseiller et vous aider à choisir le vélo le mieux adapté à vos besoins. Nous proposons également un service de réparation et d'entretien pour assurer la longévité de votre vélo.</p>
+	    <p class="alinea">En choisissant Cyclobikes, vous faites confiance à une entreprise experte dans le domaine du cycle, qui a su évoluer avec son temps et rester à la pointe des tendances et des innovations. Nos années d'expérience et notre engagement envers la satisfaction de nos clients font de nous le partenaire idéal pour tous vos besoins en matière de cyclisme.</p>
+        </div>
+    	</div>
+	
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
